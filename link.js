@@ -7,7 +7,7 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content.startsWith("OP SHOP")) {
+    if (message.content.startsWith("رابط")) {
         message.channel.createInvite({
         thing: true,
         maxUses: 9999999999,
